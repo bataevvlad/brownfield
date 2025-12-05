@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.yarn/
+
+# iOS
+ios/Pods/
+ios/build/
+ios/*.xcworkspace/xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# Android
+test-apps/android/Calculator/.gradle/
+test-apps/android/Calculator/build/
+test-apps/android/Calculator/app/build/
+test-apps/android/Calculator/local.properties
+*.apk
+*.aab
+
+# React Native
+.metro-health-check*
+*.bundle
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.framework/
+*.xcframework/

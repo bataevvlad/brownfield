@@ -1,0 +1,42 @@
+{
+  "name": "BrownfieldCalculator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "ios": "react-native run-ios --scheme BrownfieldCalculator",
+    "ios:build": "cd ios && xcodebuild -workspace BrownfieldCalculator.xcworkspace -scheme BrownfieldCalculator -configuration Debug -destination 'platform=iOS Simulator,name=iPhone 16' build",
+    "ios:run": "xcrun simctl boot 'iPhone 16' 2>/dev/null; xcrun simctl install 'iPhone 16' ~/Library/Developer/Xcode/DerivedData/BrownfieldCalculator-*/Build/Products/Debug-iphonesimulator/BrownfieldCalculator.app && xcrun simctl launch 'iPhone 16' com.brownfield.calculator",
+    "ios:open": "open ios/BrownfieldCalculator.xcworkspace",
+    "android": "react-native run-android",
+    "pods": "cd ios && pod install",
+    "brownfield:ios": "./scripts/build-xcframework.sh",
+    "brownfield:ios:release": "./scripts/build-xcframework.sh --release",
+    "brownfield:android": "./scripts/build-aar.sh",
+    "calculator:build": "./scripts/build-calculator.sh",
+    "calculator:run": "./scripts/run-calculator.sh",
+    "calculator:android:build": "cd test-apps/android/Calculator && ./gradlew assembleDebug",
+    "calculator:android:run": "cd test-apps/android/Calculator && ./gradlew installDebug && adb shell am start -n com.brownfield.calculator/.MainActivity"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.76.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native-community/cli": "15.0.1",
+    "@react-native-community/cli-platform-android": "15.0.1",
+    "@react-native-community/cli-platform-ios": "15.0.1",
+    "@react-native/babel-preset": "0.76.1",
+    "@react-native/metro-config": "0.76.1",
+    "@react-native/typescript-config": "0.76.1",
+    "@types/react": "^18.2.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "yarn@4.9.4+sha512.7b1cb0b62abba6a537b3a2ce00811a843bea02bcf53138581a6ae5b1bf563f734872bd47de49ce32a9ca9dcaff995aa789577ffb16811da7c603dcf69e73750b"
+}
