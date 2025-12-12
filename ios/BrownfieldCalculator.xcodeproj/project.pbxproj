@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D90C96ADC11BC70DABB353D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AF2BD8BEB0E8806956C42CF8 /* PrivacyInfo.xcprivacy */; };
+		70EEB9AFC7FCB84F7E2CC45B /* libPods-BrownfieldCalculator-ReactBrownfield.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 834302659CAA871A8D022528 /* libPods-BrownfieldCalculator-ReactBrownfield.a */; };
+		A10000000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002 /* AppDelegate.swift */; };
+		A10000000000000000000003 /* ReactBrownfieldRootViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004 /* ReactBrownfieldRootViewManager.swift */; };
+		A10000000000000000000005 /* ReactBrownfield.h in Headers */ = {isa = PBXBuildFile; fileRef = A10000000000000000000006 /* ReactBrownfield.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10000000000000000000007 /* ReactNativeBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000008 /* ReactNativeBridge.m */; };
+		E1EB10C9FEE75A7C1765E7E5 /* libPods-BrownfieldCalculator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B639FAC6E3995B543BB215 /* libPods-BrownfieldCalculator.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		131DD6F4EE3F276D6D7755E8 /* Pods-BrownfieldCalculator-ReactBrownfield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrownfieldCalculator-ReactBrownfield.debug.xcconfig"; path = "Target Support Files/Pods-BrownfieldCalculator-ReactBrownfield/Pods-BrownfieldCalculator-ReactBrownfield.debug.xcconfig"; sourceTree = "<group>"; };
+		834302659CAA871A8D022528 /* libPods-BrownfieldCalculator-ReactBrownfield.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrownfieldCalculator-ReactBrownfield.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A10000000000000000000004 /* ReactBrownfieldRootViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactBrownfieldRootViewManager.swift; sourceTree = "<group>"; };
+		A10000000000000000000006 /* ReactBrownfield.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactBrownfield.h; sourceTree = "<group>"; };
+		A10000000000000000000008 /* ReactNativeBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeBridge.m; sourceTree = "<group>"; };
+		A10000000000000000000010 /* BrownfieldCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrownfieldCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000020 /* ReactBrownfield.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactBrownfield.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2BD8BEB0E8806956C42CF8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = ../PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B91B27106F64179953F38239 /* Pods-BrownfieldCalculator-ReactBrownfield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrownfieldCalculator-ReactBrownfield.release.xcconfig"; path = "Target Support Files/Pods-BrownfieldCalculator-ReactBrownfield/Pods-BrownfieldCalculator-ReactBrownfield.release.xcconfig"; sourceTree = "<group>"; };
+		C303B65356A2D2E6339DB36C /* Pods-BrownfieldCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrownfieldCalculator.release.xcconfig"; path = "Target Support Files/Pods-BrownfieldCalculator/Pods-BrownfieldCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		D39F3771524105ECF5A3EE4E /* Pods-BrownfieldCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrownfieldCalculator.debug.xcconfig"; path = "Target Support Files/Pods-BrownfieldCalculator/Pods-BrownfieldCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B639FAC6E3995B543BB215 /* libPods-BrownfieldCalculator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrownfieldCalculator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EB10C9FEE75A7C1765E7E5 /* libPods-BrownfieldCalculator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EEB9AFC7FCB84F7E2CC45B /* libPods-BrownfieldCalculator-ReactBrownfield.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000040 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000041 /* BrownfieldCalculator */,
+				A10000000000000000000042 /* ReactBrownfield */,
+				A10000000000000000000043 /* Products */,
+				E8710544A50B6DF237ED61D7 /* Pods */,
+				AC5B3FFFB96A9F00E0199208 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000041 /* BrownfieldCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000002 /* AppDelegate.swift */,
+				AF2BD8BEB0E8806956C42CF8 /* PrivacyInfo.xcprivacy */,
+			);
+			path = BrownfieldCalculator;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000042 /* ReactBrownfield */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000006 /* ReactBrownfield.h */,
+				A10000000000000000000004 /* ReactBrownfieldRootViewManager.swift */,
+				A10000000000000000000008 /* ReactNativeBridge.m */,
+			);
+			path = ReactBrownfield;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000010 /* BrownfieldCalculator.app */,
+				A10000000000000000000020 /* ReactBrownfield.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC5B3FFFB96A9F00E0199208 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6B639FAC6E3995B543BB215 /* libPods-BrownfieldCalculator.a */,
+				834302659CAA871A8D022528 /* libPods-BrownfieldCalculator-ReactBrownfield.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8710544A50B6DF237ED61D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D39F3771524105ECF5A3EE4E /* Pods-BrownfieldCalculator.debug.xcconfig */,
+				C303B65356A2D2E6339DB36C /* Pods-BrownfieldCalculator.release.xcconfig */,
+				131DD6F4EE3F276D6D7755E8 /* Pods-BrownfieldCalculator-ReactBrownfield.debug.xcconfig */,
+				B91B27106F64179953F38239 /* Pods-BrownfieldCalculator-ReactBrownfield.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A10000000000000000000050 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000005 /* ReactBrownfield.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000060 /* BrownfieldCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000070 /* Build configuration list for PBXNativeTarget "BrownfieldCalculator" */;
+			buildPhases = (
+				A905AE9ADC74A328351670CC /* [CP] Check Pods Manifest.lock */,
+				A10000000000000000000061 /* Sources */,
+				A10000000000000000000030 /* Frameworks */,
+				A10000000000000000000062 /* Resources */,
+				47A1326F2B3247356F30E263 /* [CP] Embed Pods Frameworks */,
+				066DF05672AAB5E12C650485 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrownfieldCalculator;
+			productName = BrownfieldCalculator;
+			productReference = A10000000000000000000010 /* BrownfieldCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10000000000000000000063 /* ReactBrownfield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000071 /* Build configuration list for PBXNativeTarget "ReactBrownfield" */;
+			buildPhases = (
+				92239A323CBE338777326F6C /* [CP] Check Pods Manifest.lock */,
+				A10000000000000000000050 /* Headers */,
+				A10000000000000000000064 /* Sources */,
+				A10000000000000000000031 /* Frameworks */,
+				A10000000000000000000065 /* Resources */,
+				75D1A82075090B0C9F8E41BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactBrownfield;
+			productName = ReactBrownfield;
+			productReference = A10000000000000000000020 /* ReactBrownfield.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A10000000000000000000060 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A10000000000000000000063 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000000000000000000090 /* Build configuration list for PBXProject "BrownfieldCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000040;
+			productRefGroup = A10000000000000000000043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000060 /* BrownfieldCalculator */,
+				A10000000000000000000063 /* ReactBrownfield */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D90C96ADC11BC70DABB353D /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		066DF05672AAB5E12C650485 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldCalculator/Pods-BrownfieldCalculator-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldCalculator/Pods-BrownfieldCalculator-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrownfieldCalculator/Pods-BrownfieldCalculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47A1326F2B3247356F30E263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldCalculator/Pods-BrownfieldCalculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldCalculator/Pods-BrownfieldCalculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrownfieldCalculator/Pods-BrownfieldCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75D1A82075090B0C9F8E41BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldCalculator-ReactBrownfield/Pods-BrownfieldCalculator-ReactBrownfield-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldCalculator-ReactBrownfield/Pods-BrownfieldCalculator-ReactBrownfield-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrownfieldCalculator-ReactBrownfield/Pods-BrownfieldCalculator-ReactBrownfield-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92239A323CBE338777326F6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrownfieldCalculator-ReactBrownfield-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A905AE9ADC74A328351670CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrownfieldCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000003 /* ReactBrownfieldRootViewManager.swift in Sources */,
+				A10000000000000000000007 /* ReactNativeBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A100000000000000000000A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		A100000000000000000000A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A100000000000000000000B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39F3771524105ECF5A3EE4E /* Pods-BrownfieldCalculator.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brownfield.calculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A100000000000000000000B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C303B65356A2D2E6339DB36C /* Pods-BrownfieldCalculator.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brownfield.calculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A100000000000000000000C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131DD6F4EE3F276D6D7755E8 /* Pods-BrownfieldCalculator-ReactBrownfield.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brownfield.ReactBrownfield;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A100000000000000000000C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B91B27106F64179953F38239 /* Pods-BrownfieldCalculator-ReactBrownfield.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brownfield.ReactBrownfield;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000070 /* Build configuration list for PBXNativeTarget "BrownfieldCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100000000000000000000B0 /* Debug */,
+				A100000000000000000000B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000071 /* Build configuration list for PBXNativeTarget "ReactBrownfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100000000000000000000C0 /* Debug */,
+				A100000000000000000000C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000090 /* Build configuration list for PBXProject "BrownfieldCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100000000000000000000A0 /* Debug */,
+				A100000000000000000000A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000080 /* Project object */;
+}
