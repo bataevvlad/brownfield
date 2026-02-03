@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/black"
+        app:titleTextColor="@color/white"
+        app:menu="@menu/main_menu"
+        android:theme="@style/ToolbarTheme" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|end"
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/displayText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="64sp"
+            android:textColor="@color/white"
+            android:textAlignment="textEnd"
+            android:fontFamily="sans-serif-light"
+            android:maxLines="1"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="24sp"
+            android:autoSizeMaxTextSize="64sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Row 1: C, ±, %, ÷ -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <Button
+                android:id="@+id/btnClear"
+                style="@style/CalculatorButton.Function"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/btnToggleSign"
+                style="@style/CalculatorButton.Function"
+                android:text="±" />
+
+            <Button
+                android:id="@+id/btnPercent"
+                style="@style/CalculatorButton.Function"
+                android:text="%" />
+
+            <Button
+                android:id="@+id/btnDivide"
+                style="@style/CalculatorButton.Operator"
+                android:text="÷" />
+
+        </LinearLayout>
+
+        <!-- Row 2: 7, 8, 9, × -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <Button
+                android:id="@+id/btn7"
+                style="@style/CalculatorButton.Number"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btn8"
+                style="@style/CalculatorButton.Number"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btn9"
+                style="@style/CalculatorButton.Number"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/btnMultiply"
+                style="@style/CalculatorButton.Operator"
+                android:text="×" />
+
+        </LinearLayout>
+
+        <!-- Row 3: 4, 5, 6, − -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <Button
+                android:id="@+id/btn4"
+                style="@style/CalculatorButton.Number"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btn5"
+                style="@style/CalculatorButton.Number"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btn6"
+                style="@style/CalculatorButton.Number"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/btnSubtract"
+                style="@style/CalculatorButton.Operator"
+                android:text="−" />
+
+        </LinearLayout>
+
+        <!-- Row 4: 1, 2, 3, + -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <Button
+                android:id="@+id/btn1"
+                style="@style/CalculatorButton.Number"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btn2"
+                style="@style/CalculatorButton.Number"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btn3"
+                style="@style/CalculatorButton.Number"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                style="@style/CalculatorButton.Operator"
+                android:text="+" />
+
+        </LinearLayout>
+
+        <!-- Row 5: 0, ., = -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn0"
+                style="@style/CalculatorButton.Number"
+                android:layout_weight="2"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btnDecimal"
+                style="@style/CalculatorButton.Number"
+                android:text="." />
+
+            <Button
+                android:id="@+id/btnEquals"
+                style="@style/CalculatorButton.Operator"
+                android:text="=" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

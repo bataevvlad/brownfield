@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF9500</item>
+        <item name="colorPrimaryVariant">#E68600</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#FF9500</item>
+        <item name="colorSecondaryVariant">#E68600</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="actionMenuTextColor">#FF9500</item>
+    </style>
+
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginHorizontal">6dp</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">40dp</item>
+    </style>
+
+    <style name="CalculatorButton.Number">
+        <item name="android:backgroundTint">@color/button_number</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CalculatorButton.Function">
+        <item name="android:backgroundTint">@color/button_function</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CalculatorButton.Operator">
+        <item name="android:backgroundTint">@color/button_operator</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
