@@ -2,6 +2,12 @@
 
 A monorepo demonstrating React Native brownfield integration with native iOS (Swift/UIKit) and Android (Kotlin) calculator apps.
 
+## Demo
+
+| iOS | Android |
+|-----|---------|
+| ![iOS Demo](assets/ios-demo.gif) | ![Android Demo](assets/android-demo.gif) |
+
 ## Project Structure
 
 ```
